@@ -1,0 +1,998 @@
+{
+  "stocks": [
+    {
+      "name": "Kahve",
+      "amount": "20",
+      "cost": "15000",
+      "buy_date": "2025-08-21",
+      "finish_date": "",
+      "used_amount": 126,
+      "unit_cost": "0.750",
+      "unit": "KG",
+      "id": "1"
+    },
+    {
+      "name": "Süt",
+      "amount": "80",
+      "cost": "5000",
+      "buy_date": "2025-08-21",
+      "finish_date": "",
+      "used_amount": 100,
+      "unit_cost": "0.063",
+      "unit": "LT",
+      "id": "2"
+    },
+    {
+      "name": "Su",
+      "amount": "40",
+      "cost": "2000",
+      "buy_date": "2025-08-21",
+      "finish_date": "",
+      "used_amount": 570,
+      "unit_cost": "0.050",
+      "unit": "LT",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Un",
+      "amount": "15",
+      "unit": "KG",
+      "used_amount": 110,
+      "cost": "2000",
+      "unit_cost": "0.133",
+      "buy_date": "2025-08-27",
+      "finish_date": ""
+    },
+    {
+      "id": "5",
+      "name": "Şeker",
+      "amount": "20",
+      "unit": "KG",
+      "used_amount": 60,
+      "cost": "5000",
+      "unit_cost": "0.250",
+      "buy_date": "2025-08-27",
+      "finish_date": ""
+    },
+    {
+      "id": "6",
+      "name": "Yumurta",
+      "amount": "100",
+      "unit": "PIEACE",
+      "used_amount": 2,
+      "cost": "1000",
+      "unit_cost": "10.000",
+      "buy_date": "2025-08-27",
+      "finish_date": ""
+    },
+    {
+      "id": "7",
+      "name": "Kakao",
+      "amount": "2",
+      "unit": "KG",
+      "used_amount": 40,
+      "cost": "500",
+      "unit_cost": "0.250",
+      "buy_date": "2025-08-27",
+      "finish_date": ""
+    },
+    {
+      "id": "8",
+      "name": "Tereyağ",
+      "amount": "20",
+      "unit": "KG",
+      "used_amount": 40,
+      "cost": "10000",
+      "unit_cost": "0.500",
+      "buy_date": "2025-08-27",
+      "finish_date": ""
+    },
+    {
+      "id": "dVNLvS9JGgixjCONEc_EP",
+      "name": "Damla Çikolata",
+      "amount": "3",
+      "unit": "KG",
+      "used_amount": 10,
+      "cost": "2000",
+      "unit_cost": "0.667",
+      "buy_date": "2025-08-27",
+      "finish_date": ""
+    }
+  ],
+  "products": [
+    {
+      "name": "Espresso",
+      "price": "80",
+      "category": "DRINK",
+      "recipe_price": 13.5,
+      "id": "1"
+    },
+    {
+      "name": "Amerikano",
+      "price": "155",
+      "category": "DRINK",
+      "recipe_price": 20,
+      "id": "2"
+    },
+    {
+      "id": "BE-etu3misGcgmDPDxuNL",
+      "name": "Cookie",
+      "price": "150",
+      "category": "FOOD",
+      "recipe_price": 19.247
+    },
+    {
+      "id": "YGJgUsR9AKA__ak8SCILD",
+      "name": "Latte",
+      "price": "127",
+      "category": "DRINK",
+      "recipe_price": 21.15
+    },
+    {
+      "id": "Tlm1I73IyYFBzvtHNeb_w",
+      "name": "Kek",
+      "price": "180",
+      "category": "FOOD",
+      "recipe_price": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "Pas4DYtUQp0v017djJxTy",
+      "stockId": "1",
+      "amount": "18",
+      "amountCost": "13.500",
+      "unit": "gr",
+      "productId": "1"
+    },
+    {
+      "id": "5bf6jT4gMoA2Eyhgc5u5C",
+      "stockId": "1",
+      "amount": "18",
+      "amountCost": "13.500",
+      "unit": "gr",
+      "productId": "2"
+    },
+    {
+      "id": "P_yKnBF-012wZBiCoUeLA",
+      "stockId": "3",
+      "amount": "130",
+      "amountCost": "6.500",
+      "unit": "ml",
+      "productId": "2"
+    },
+    {
+      "id": "YOAMbcO8OCL0t2VfUqE_i",
+      "stockId": "1",
+      "amount": "18",
+      "amountCost": "13.500",
+      "unit": "gr",
+      "productId": "YGJgUsR9AKA__ak8SCILD"
+    },
+    {
+      "id": "fGekc34-eXdoiGxEeFDTy",
+      "stockId": "2",
+      "amount": "50",
+      "amountCost": "3.150",
+      "unit": "ml",
+      "productId": "YGJgUsR9AKA__ak8SCILD"
+    },
+    {
+      "id": "HA3gpKk8wlZmr8SaB9-Vt",
+      "stockId": "3",
+      "amount": "90",
+      "amountCost": "4.500",
+      "unit": "ml",
+      "productId": "YGJgUsR9AKA__ak8SCILD"
+    },
+    {
+      "id": "NLHrs299oQDFVn-gbPZmV",
+      "stockId": "4",
+      "amount": "10",
+      "amountCost": "1.330",
+      "unit": "gr",
+      "productId": "BE-etu3misGcgmDPDxuNL"
+    },
+    {
+      "id": "x68s1Tbj4aWvApFeUzle8",
+      "stockId": "5",
+      "amount": "15",
+      "amountCost": "3.750",
+      "unit": "gr",
+      "productId": "BE-etu3misGcgmDPDxuNL"
+    },
+    {
+      "id": "raw-vj5bvc-bvW-zz1HOQ",
+      "stockId": "6",
+      "amount": "0.5",
+      "amountCost": "5.000",
+      "unit": "PIEACE",
+      "productId": "BE-etu3misGcgmDPDxuNL"
+    },
+    {
+      "id": "JMNwKJqALPR0FbGyg45Gm",
+      "stockId": "7",
+      "amount": "10",
+      "amountCost": "2.500",
+      "unit": "gr",
+      "productId": "BE-etu3misGcgmDPDxuNL"
+    },
+    {
+      "id": "usp0rl2xqwcqoG_IkeAlI",
+      "stockId": "8",
+      "amount": "10",
+      "amountCost": "5.000",
+      "unit": "gr",
+      "productId": "BE-etu3misGcgmDPDxuNL"
+    },
+    {
+      "id": "3JCuZX4e9c2SWZK9cVn7h",
+      "stockId": "dVNLvS9JGgixjCONEc_EP",
+      "amount": "2.5",
+      "amountCost": "1.667",
+      "unit": "gr",
+      "productId": "BE-etu3misGcgmDPDxuNL"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Salon",
+      "id": "edxMqG7gfzGxibM1_XV_o"
+    },
+    {
+      "name": "Bahçe",
+      "id": "0lvThb2lJ9gyX4FXDAj8H"
+    }
+  ],
+  "tables": [
+    {
+      "id": "S6vmfF-ObfrOdtRG4B0ZT",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 1",
+      "isActive": false
+    },
+    {
+      "id": "E6WI0N18VGKSA6N2tx5zR",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 9",
+      "isActive": false
+    },
+    {
+      "id": "KbQQ048GMzUGS1PVfth2G",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 10",
+      "isActive": false
+    },
+    {
+      "id": "ygrfLyFjNjD62EOdn4cEV",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 2",
+      "isActive": false
+    },
+    {
+      "id": "9C3YEjRj3Wera-ffCfVD1",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 11",
+      "isActive": false
+    },
+    {
+      "id": "473TpO8rRpg7ywVLLip0Y",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 3",
+      "isActive": false
+    },
+    {
+      "id": "QVTLhkCfxDHVQSYGqmMXX",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 12",
+      "isActive": false
+    },
+    {
+      "id": "Wgqpe1Up_Ltn-gb1V9EEl",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 13",
+      "isActive": false
+    },
+    {
+      "id": "xD-Aj_okbvqjqN3LUo-Jn",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 7",
+      "isActive": false
+    },
+    {
+      "id": "RFccPxxMec62Dtu8QPOal",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 14",
+      "isActive": false
+    },
+    {
+      "id": "H1Xpmu_zNxi3MbLsdU9zv",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 8",
+      "isActive": false
+    },
+    {
+      "id": "-wbtK71d761tefTseo1CB",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 4",
+      "isActive": false
+    },
+    {
+      "id": "SPzXbNuNvsNGhuZN7rXFv",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 15",
+      "isActive": false
+    },
+    {
+      "id": "2rnZQRqSo7FkVjdTC83Xw",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 16",
+      "isActive": false
+    },
+    {
+      "id": "_JJFJtgJPwsqhoSgsbbkv",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 17",
+      "isActive": false
+    },
+    {
+      "id": "KW3n4WPXZZMefL-2IuAjA",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 18",
+      "isActive": false
+    },
+    {
+      "id": "gIku3Eb8UbQF_ghAFt96L",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 19",
+      "isActive": false
+    },
+    {
+      "id": "CF3Bw5EbCIprvcz8P7Zh6",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 5",
+      "isActive": false
+    },
+    {
+      "id": "gNqGi__W7todzkV89MuKJ",
+      "areaId": "0lvThb2lJ9gyX4FXDAj8H",
+      "name": "Masa 6",
+      "isActive": false
+    },
+    {
+      "id": "4t6hiDhbpN5Ut6qKV_lB5",
+      "areaId": "edxMqG7gfzGxibM1_XV_o",
+      "name": "Başak Masa <3",
+      "isActive": false
+    },
+    {
+      "id": "hmOIVk4qdJX_b_gwRxA9q",
+      "areaId": "edxMqG7gfzGxibM1_XV_o",
+      "name": "Keyoş Masa <3",
+      "isActive": false
+    }
+  ],
+  "table_orders": [
+    {
+      "id": "bL5KWIWWJMO23YxWH_s13",
+      "tableId": "KW3n4WPXZZMefL-2IuAjA",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "01.09.2025-15:34:18",
+      "isPaid": true,
+      "paidTime": "01.09.2025-15:35:02"
+    },
+    {
+      "id": "xnz0O70kFtAuWCwkz8KOq",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 80,
+      "orderTime": "01.09.2025-15:40:13",
+      "isPaid": true,
+      "paidTime": "01.09.2025-15:40:55"
+    },
+    {
+      "id": "msmbnVV8bSHPM2rfEmuj7",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 1
+        }
+      ],
+      "total": 155,
+      "orderTime": "01.09.2025-15:42:28",
+      "isPaid": true,
+      "paidTime": "01.09.2025-15:46:00"
+    },
+    {
+      "id": "Ay-tjrrbpebcnHV3eliB1",
+      "tableId": "Wgqpe1Up_Ltn-gb1V9EEl",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 80,
+      "orderTime": "01.09.2025-15:52:20",
+      "isPaid": true,
+      "paidTime": "01.09.2025-15:53:55"
+    },
+    {
+      "id": "f6GSDKiu6ZkEO9MnNERoz",
+      "tableId": "Wgqpe1Up_Ltn-gb1V9EEl",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 1
+        }
+      ],
+      "total": 155,
+      "orderTime": "01.09.2025-15:54:39",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:01:39"
+    },
+    {
+      "id": "iKLqEtzt9e0NqIGdL93dO",
+      "tableId": "Wgqpe1Up_Ltn-gb1V9EEl",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 80,
+      "orderTime": "01.09.2025-16:01:53",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:01:58"
+    },
+    {
+      "id": "hbPEgaJTCgqiq_1bNhMIA",
+      "tableId": "Wgqpe1Up_Ltn-gb1V9EEl",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 1
+        },
+        {
+          "id": "YGJgUsR9AKA__ak8SCILD",
+          "name": "Latte",
+          "price": "127",
+          "category": "DRINK",
+          "recipe_price": 21.15,
+          "quantity": 1
+        }
+      ],
+      "total": 362,
+      "orderTime": "01.09.2025-16:12:11",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:12:39"
+    },
+    {
+      "id": "FbnXmS34HutoqoYEyz-H0",
+      "tableId": "Wgqpe1Up_Ltn-gb1V9EEl",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 80,
+      "orderTime": "01.09.2025-16:13:19",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:13:49"
+    },
+    {
+      "id": "bEiroIzhkfy9iHEL7g_M2",
+      "tableId": "Wgqpe1Up_Ltn-gb1V9EEl",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 80,
+      "orderTime": "01.09.2025-16:14:02",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:14:07"
+    },
+    {
+      "id": "2z7oWwTVszH0uhV7ZN0j2",
+      "tableId": "KW3n4WPXZZMefL-2IuAjA",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 1
+        }
+      ],
+      "total": 155,
+      "orderTime": "01.09.2025-16:14:40",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:15:00"
+    },
+    {
+      "id": "W0uCzqBnAywpv714MaGda",
+      "tableId": "E6WI0N18VGKSA6N2tx5zR",
+      "orders": [
+        {
+          "id": "YGJgUsR9AKA__ak8SCILD",
+          "name": "Latte",
+          "price": "127",
+          "category": "DRINK",
+          "recipe_price": 21.15,
+          "quantity": 1
+        }
+      ],
+      "total": 127,
+      "orderTime": "01.09.2025-16:14:46",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:14:57"
+    },
+    {
+      "id": "hWQ5Qn6rT2i0eQjkxT22C",
+      "tableId": "9C3YEjRj3Wera-ffCfVD1",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "01.09.2025-16:14:53",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:15:04"
+    },
+    {
+      "id": "2N0D09CZj5fthN9apnsXK",
+      "tableId": "KbQQ048GMzUGS1PVfth2G",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 1
+        },
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 4
+        }
+      ],
+      "total": 835,
+      "orderTime": "01.09.2025-16:31:18",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:32:43"
+    },
+    {
+      "id": "tT4ONg31khTGrkVspvkQj",
+      "tableId": "SPzXbNuNvsNGhuZN7rXFv",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        },
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "YGJgUsR9AKA__ak8SCILD",
+          "name": "Latte",
+          "price": "127",
+          "category": "DRINK",
+          "recipe_price": 21.15,
+          "quantity": 1
+        }
+      ],
+      "total": 357,
+      "orderTime": "01.09.2025-16:32:13",
+      "isPaid": true,
+      "paidTime": "01.09.2025-16:32:54"
+    },
+    {
+      "id": "DmoahEG0dQmP14TFT_XXn",
+      "tableId": "H1Xpmu_zNxi3MbLsdU9zv",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 4
+        },
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 7
+        }
+      ],
+      "total": 1670,
+      "orderTime": "02.09.2025-09:35:34",
+      "isPaid": true,
+      "paidTime": "02.09.2025-09:35:38"
+    },
+    {
+      "id": "zkIj0zn9VQdwt5opNHvba",
+      "tableId": "9C3YEjRj3Wera-ffCfVD1",
+      "orders": [
+        {
+          "id": "Tlm1I73IyYFBzvtHNeb_w",
+          "name": "Kek",
+          "price": "180",
+          "category": "FOOD",
+          "recipe_price": 0,
+          "quantity": 3
+        }
+      ],
+      "total": 540,
+      "orderTime": "02.09.2025-09:37:40",
+      "isPaid": true,
+      "paidTime": "02.09.2025-09:37:43"
+    },
+    {
+      "id": "IEDIAbWwr2-JS1sMkkrmt",
+      "tableId": "4t6hiDhbpN5Ut6qKV_lB5",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 2
+        },
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 3
+        }
+      ],
+      "total": 760,
+      "orderTime": "02.09.2025-10:38:21",
+      "isPaid": true,
+      "paidTime": "02.09.2025-10:38:25"
+    },
+    {
+      "id": "XRG9L-VmB4BYFqZeQ827c",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 1
+        }
+      ],
+      "total": 155,
+      "orderTime": "02.09.2025-14:14:07",
+      "isPaid": true,
+      "paidTime": "02.09.2025-14:14:18"
+    },
+    {
+      "id": "nHXkhyQ62_Nao7qsUxXGe",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 80,
+      "orderTime": "02.09.2025-14:18:27",
+      "isPaid": true,
+      "paidTime": "02.09.2025-14:18:31"
+    },
+    {
+      "id": "0oKLWfwf1SRfUmAEBAUSL",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "02.09.2025-14:45:32",
+      "isPaid": true,
+      "paidTime": "02.09.2025-14:45:36"
+    },
+    {
+      "id": "fkUHbr53p-H1PodhNq2i5",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "02.09.2025-14:46:47",
+      "isPaid": true,
+      "paidTime": "02.09.2025-14:46:50"
+    },
+    {
+      "id": "I2UDmgEX3s8FKCWcaxBNi",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 1
+        }
+      ],
+      "total": 155,
+      "orderTime": "02.09.2025-14:49:28",
+      "isPaid": true,
+      "paidTime": "02.09.2025-14:49:31"
+    },
+    {
+      "id": "RNHjM0xLhPN9FLjQIrWJo",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "name": "Espresso",
+          "price": "80",
+          "category": "DRINK",
+          "recipe_price": 13.5,
+          "id": "1",
+          "quantity": 1
+        }
+      ],
+      "total": 80,
+      "orderTime": "02.09.2025-15:01:04",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:01:08"
+    },
+    {
+      "id": "D9VdtJHuqkxDthi24ETYE",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "02.09.2025-15:01:35",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:01:38"
+    },
+    {
+      "id": "p2k-sSFP19lgipa8fPQJb",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "02.09.2025-15:02:03",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:02:06"
+    },
+    {
+      "id": "HcnergWPpBxb_h0N5Xtpj",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 2
+        }
+      ],
+      "total": 300,
+      "orderTime": "02.09.2025-15:02:23",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:02:29"
+    },
+    {
+      "id": "NO9zcNvskuhXmiq9LcehT",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 2
+        }
+      ],
+      "total": 300,
+      "orderTime": "02.09.2025-15:03:09",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:03:11"
+    },
+    {
+      "id": "knDjMK3w9iB-z3Q8i4jDZ",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "02.09.2025-15:04:09",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:04:13"
+    },
+    {
+      "id": "TpK7hvGy3B4gctR-3vXF9",
+      "tableId": "S6vmfF-ObfrOdtRG4B0ZT",
+      "orders": [
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 1
+        }
+      ],
+      "total": 150,
+      "orderTime": "02.09.2025-15:12:21",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:12:24"
+    },
+    {
+      "id": "vixO1zVfIt2EZLQSx_4bm",
+      "tableId": "KbQQ048GMzUGS1PVfth2G",
+      "orders": [
+        {
+          "name": "Amerikano",
+          "price": "155",
+          "category": "DRINK",
+          "recipe_price": 20,
+          "id": "2",
+          "quantity": 2
+        },
+        {
+          "id": "YGJgUsR9AKA__ak8SCILD",
+          "name": "Latte",
+          "price": "127",
+          "category": "DRINK",
+          "recipe_price": 21.15,
+          "quantity": 1
+        },
+        {
+          "id": "BE-etu3misGcgmDPDxuNL",
+          "name": "Cookie",
+          "price": "150",
+          "category": "FOOD",
+          "recipe_price": 19.247,
+          "quantity": 2
+        }
+      ],
+      "total": 737,
+      "orderTime": "02.09.2025-15:13:18",
+      "isPaid": true,
+      "paidTime": "02.09.2025-15:13:36"
+    }
+  ]
+}
